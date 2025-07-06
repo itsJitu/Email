@@ -1,0 +1,25 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "email.js",
+  "scripts": {
+    "dev": "nodemon/email",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsJitu/Email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/itsJitu/Email/issues"
+  },
+  "homepage": "https://github.com/itsJitu/Email#readme",
+  "dependencies": {
+    "nodemailer": "^7.0.4"
+  }
+}
