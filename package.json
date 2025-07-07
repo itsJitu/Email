@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/itsJitu/Email#readme",
   "dependencies": {
-    "nodemailer": "^7.0.4"
+    "nodemailer": "^7.0.5"
   }
 }

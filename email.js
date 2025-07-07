@@ -1,13 +1,14 @@
 const nodemailer = require("nodemailer");
 
 const mailer = nodemailer.createTransport({
-    host: "localhost",
-    port: "1025", // fixed: use number
-    secure: false
+    service: "gmail",
+  auth: {
+    user: "userakashnettechinnov123@gmail.com",           // ✅ Your real Gmail
+    pass: "tnvp dxtm ywis hayh",              // ✅ Not your real password
+  },
 });
 
 const mailOptions = {
-    from: "do-not-reply@mystore.com",
     to: "diwakarkumar9451@gmail.com",
     subject: "Order not confirm",
    // text: "This is my first email through nodemailer"
@@ -18,7 +19,7 @@ const mailOptions = {
         <table>
             <thead>
                 <tr>
-                    <td>s no</td>
+                    <td>Yomtfjhffhhjugbjkh</td>
                     <td>items</td>
                 </tr>
             </thead>
